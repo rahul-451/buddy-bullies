@@ -1,0 +1,126 @@
+/* font-size */
+
+:root {
+    --font-size-vsm: 14px;
+    --font-size-sm: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-sixe-xl: 21.744px;
+    --font-size-2xl: 25px;
+    --font-size-3xl: 30px;
+    --font-size-4xl: 50px;
+    --font-size-5xl: 70px;
+}
+
+.font-14 {
+    font-size: var(--font-size-vsm);
+}
+
+.font-16 {
+    font-size: var(--font-size-sm);
+}
+
+.font-18 {
+    font-size: var(--font-weight-md);
+}
+
+.font-20 {
+    font-size: var(--font-size-lg);
+}
+
+.font-21 {
+    font-size: var(--font-sixe-xl) !important;
+}
+
+.font-25 {
+    font-size: var(--font-size-2xl);
+}
+
+.font-30 {
+    font-size: var(--font-size-3xl);
+}
+
+.font-50 {
+    font-size: var(--font-size-4xl);
+}
+
+.font-70 {
+    font-size: var(--font-size-5xl);
+}
+
+/* font-weight */
+:root {
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-lg: 600;
+    --font-weight-xl: 700;
+}
+
+.w-400 {
+    font-weight: var(--font-weight-sm);
+}
+
+.w-500 {
+    font-weight: var(--font-weight-md);
+}
+
+.w-600 {
+    font-weight: var(--font-weight-lg) !important;
+}
+
+.w-700 {
+    font-weight: var(--font-weight-xl);
+}
+
+/* font-family */
+
+:root {
+    --font-family-poppins: 'Poppins',
+        sans-serif;
+    --font-family-montserrat: 'Montserrat',
+        sans-serif;
+}
+.montserrat{
+    font-family: var(--font-family-montserrat);
+}
+
+/* font-color */
+
+:root {
+    --color-sm: #FFF;
+    --color-md: #001D49;
+    --color-lg: #B2CDDF;
+    --color-xl: #000C1D;
+    --color-2xl: #9AA0A9;
+    --color-3xl: #009DFF;
+    --color-4xl:#B3B7BE;
+    --color-5xl:#80858D;
+}
+
+.line-color{
+    color: var(--color-5xl);
+}
+
+.box-p-color{
+    color: var(--color-4xl);
+}
+
+.p-last{
+    color: var(--color-2xl);
+}
+
+.fp-color{
+    color: var(--color-lg);
+}
+
+.white {
+    color: var(--color-sm) !important;
+}
+
+.bg-color{
+    background-color: var(--color-xl);
+}
+
+.btn-color{
+    color: var(--color-md);
+}
